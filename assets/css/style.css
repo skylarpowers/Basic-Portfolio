@@ -1,0 +1,62 @@
+#relativeHeader{
+	width: 250px;
+	height: 65px;
+	background-color: #4aaaa5;
+	bottom: 80px;
+	/*position: relative;*/
+}
+
+#NameHeader{
+	font-size: 36px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+
+#navBar{
+	float: right;
+
+}
+
+ul{
+	position: relative;
+	display: inline;
+	bottom: 60px;
+	right: 15px;
+}
+.List{
+	border-right: 2px solid black;
+	padding-right: 20px;
+}
+
+#Contact{
+	border: none;
+}
+
+body{
+	background-color: #CD2D2D;
+}
+
+#mainsquare{
+	height: 450px;
+	width: 675px;
+	background-color: white;
+}
+
+img{
+	float: left;
+}
+
+p{
+	font-size: 20px;
+}
+
+#headerbox{
+	width:110%;
+	height:85px;
+	background-color: white;
+	position: relative;
+	bottom: 75px;
+	right: 20px;
+	z-index: -1;
+}
