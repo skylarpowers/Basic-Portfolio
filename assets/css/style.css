@@ -1,9 +1,11 @@
 #relativeHeader{
 	width: 250px;
-	height: 65px;
-	background-color: #4aaaa5;
-	bottom: 80px;
-	/*position: relative;*/
+	height: 74px;
+	background-color: #09bfdb;
+	bottom: 0px;
+	left:1px;
+	position: relative;
+
 }
 
 #NameHeader{
@@ -18,15 +20,28 @@
 
 }
 
+#navbox{
+	width: 282px;
+	height: 18px;
+	background-color: #09bfdb;
+	position: relative;
+	bottom: 94px;
+	left: 64px;
+}
+
 ul{
 	position: relative;
 	display: inline;
 	bottom: 60px;
 	right: 15px;
+	z-index: 1
 }
+
 .List{
 	border-right: 2px solid black;
 	padding-right: 20px;
+	color: black;
+	z-index: 1;
 }
 
 #Contact{
@@ -34,17 +49,28 @@ ul{
 }
 
 body{
-	background-color: #CD2D2D;
+	background-image: url(../images/concrete-texture.png);
+	background-repeat: repeat;
+	width: 960px;
 }
 
 #mainsquare{
-	height: 450px;
-	width: 675px;
+	height: 400px;
+	width: 500px;
 	background-color: white;
+	position: relative;
+	bottom: 203px;
+	border: 2px solid #09bfdb;
+	left: 50px;
+	background-image: url(../images/mochaGrunge.png);
+	background-repeat: repeat;
 }
 
 img{
 	float: left;
+	height: 200px;
+	width: 150px;
+
 }
 
 p{
@@ -52,11 +78,373 @@ p{
 }
 
 #headerbox{
-	width:110%;
-	height:85px;
+	width: 960px;
+	height: 85px;
 	background-color: white;
 	position: relative;
 	bottom: 75px;
-	right: 20px;
 	z-index: -1;
+	background-image: url(../images/ep_naturalblack.png);
+	background-repeat: repeat;
+}
+
+#connectbox{
+	height: 180px;
+	width: 250px;
+	background-color: white;
+	position: relative;
+	left: 640px;
+	bottom: 20px;
+	border: 2px solid #09bfdb;
+	background-image: url(../images/mochaGrunge.png);
+	background-repeat: repeat;
+
+
+}
+
+#connecttext{
+	font-size: 24px;
+	position: relative;
+	left: 25px;
+	top: 1px;
+	/*border: 2px solid red;
+	padding: 0px;
+	margin: 0;
+	text-align: center;*/
+}
+
+#connectborder{
+	height: 2px;
+	width: 175px;
+	background-color: black;
+	position: relative;
+	left: 27px;
+	bottom: 15px;
+}
+
+footer{
+	background-image: url(../images/ep_naturalblack.png);
+	background-repeat: repeat;
+	padding: 25px;
+	position: relative;
+	bottom: 50px;
+	border-top: 3px solid #09bfdb;
+	color: #09bfdb;
+	text-align: center;
+}
+
+#fullsquare{
+	background-image: url(../images/stardust.png);
+	background-repeat: repeat;
+	height: 675px;
+
+}
+
+#fullborder{
+	height: 2px;
+	width: 125px;
+	background-color: black;
+	position: relative;
+	top: 17px;
+	left: 20px;
+}
+
+#linkedin{
+	height: 72px;
+	width: 72px;
+	position: relative;
+	top: 10px;
+	left: 8px;
+}
+
+#github{
+	height: 70px;
+	width: 70px;
+	position: relative;
+	top: 10px;
+	left: 19px;
+}
+
+#stack{
+	height: 70px;
+	width: 70px;
+	position: relative;
+	top: 10px;
+	left: 30px;
+}
+
+h1{
+	position: relative;
+	left: 20px;
+}
+
+#contacttext{
+	font-size: 36px;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+	left: 20px;
+}
+
+#name{
+	font-size: 20px;
+	position: relative;
+	top: 35px;
+	left: 22px;
+}
+
+#namebar{
+	height: 20px;
+	width: 450px;
+	position: relative;
+	background-color: white;
+	top: 40px;
+	left: 20px;
+	border: 1px solid black;
+}
+
+#email{
+	font-size: 20px;
+	position: relative;
+	top: 45px;
+	left: 22px;
+}
+
+#emailbar{
+	height: 20px;
+	width: 450px;
+	position: relative;
+	background-color: white;
+	top: 50px;
+	left: 20px;
+	border: 1px solid black;
+}
+
+#message{
+	font-size: 20px;
+	position: relative;
+	top: 55px;
+	left: 22px;
+}
+
+#messagebar{
+	height: 125px;
+	width: 450px;
+	position: relative;
+	background-color: white;
+	top: 60px;
+	left: 20px;
+	border: 1px solid black;
+}
+
+#submitsquare{
+	height: 25px;
+	width: 80px;
+	background-color: #09bfdb;
+	position: relative;
+	top: 75px;
+	left: 20px;
+}
+
+#submittext{
+	position: relative;
+	top: 3px;
+	left: 17px;
+	color: black;
+}
+
+#mainsquarep{
+	height: 525px;
+	width: 500px;
+	background-color: white;
+	position: relative;
+	bottom: 203px;
+	border: 2px solid #09bfdb;
+	left: 50px;
+	background-image: url(../images/mochaGrunge.png);
+	background-repeat: repeat;
+}
+
+#fullborder1{
+	height: 2px;
+	width: 150px;
+	background-color: black;
+	position: relative;
+	top: 62px;
+	left: 15px;
+}
+
+#fullborder2{
+	height: 2px;
+	width: 130px;
+	background-color: black;
+	position: relative;
+	top: 62px;
+	left: 15px;
+}
+
+#pig{
+	height: 125px;
+	width: 180px;
+	position: relative;
+	left: 40px;
+	bottom: 15px;
+}
+
+#pigbox{
+	position: relative;
+	height: 30px;
+	width: 180px;
+	background-color: #B0B0B0;
+	top: 95px;
+	left: 40px;
+	z-index: 1;
+	opacity: 0.75;
+}
+
+#pigtext{
+	position: relative;
+	text-align: center;
+	top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#city{
+	height: 125px;
+	width: 180px;
+	position: relative;
+	left: 100px;
+	bottom: 45px;
+}
+
+#citybox{
+	position: relative;
+	height: 30px;
+	width: 180px;
+	background-color: #B0B0B0;
+	top: 65px;
+	left: 280px;
+	z-index: 1;
+	opacity: 0.75;
+}
+
+#citytext{
+	position: relative;
+	text-align: center;
+	bottom: 120px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#food{
+	height: 125px;
+	width: 180px;
+	position: relative;
+	left: 40px;
+	bottom: 30px;
+}
+#foodbox{
+	position: relative;
+	height: 30px;
+	width: 180px;
+	background-color: #B0B0B0;
+	left: 40px;
+	top: 175px;
+	z-index: 1;
+	opacity: 0.75;
+}
+
+#foodtext{
+	position: relative;
+	text-align: center;
+	bottom: 120px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#guitar{
+	height: 125px;
+	width: 180px;
+	position: relative;
+	left: 100px;
+	bottom: 30px;
+}
+
+#guitarbox{
+	position: relative;
+	height: 30px;
+	width: 180px;
+	background-color: #B0B0B0;
+	top: 145px;
+	left: 280px;
+	z-index: 1;
+	opacity: 0.75;
+}
+
+#guitartext{
+	position: relative;
+	text-align: center;
+	bottom: 215px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#drinks{
+	height: 125px;
+	width: 180px;
+	position: relative;
+	left: 40px;
+	bottom: 15px;
+}
+
+#drinksbox{
+	position: relative;
+	height: 30px;
+	width: 180px;
+	background-color: #B0B0B0;
+	top: 255px;
+	left: 40px;
+	z-index: 1;
+	opacity: 0.75;
+}
+
+#drinkstext{
+	position: relative;
+	text-align: center;
+	bottom: 185px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#sports{
+	height: 125px;
+	width: 180px;
+	position: relative;
+	left: 100px;
+	bottom: 15px;
+}
+
+#sportsbox{
+	position: relative;
+	height: 30px;
+	width: 180px;
+	background-color: #B0B0B0;
+	top: 225px;
+	left: 280px;
+	z-index: 1;
+	opacity: 0.75;
+}
+
+#sportstext{
+	position: relative;
+	text-align: center;
+	bottom: 280px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#port{
+	position: relative;
+	right: 168.5px;
 }
